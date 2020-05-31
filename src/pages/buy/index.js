@@ -1,10 +1,14 @@
 import React from 'react';
-import {View,Text} from 'react-native';
+import {View,Text,SafeAreaView} from 'react-native';
 
-export default function home(){
+import global from '../global'
+
+export default function buy(){
   return(
-    <View>
-       <Text> Comprar </Text>
-    </View>
+    <SafeAreaView style={global.SafeArewView}>
+      <View style={global.container}>
+        <Text>Buy</Text>
+        </View>
+    </SafeAreaView>
   )
 }
