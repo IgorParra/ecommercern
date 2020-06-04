@@ -9,9 +9,24 @@ const global = StyleSheet.create({
 
   container:{
     flex:1,
-    paddingLeft:35
-  }
-
+   
+  },
+  span:{
+    fontWeight:'bold'
+  },
+  title:{
+    fontWeight:'bold',
+    fontSize:18,
+    paddingLeft:30,
+    paddingTop:20,
+    color:'#02206C'
+  },
+  body:{
+    fontWeight:'500',
+    fontSize:12,
+    paddingLeft:30,
+    color:'#02206C'
+  }  ,
 
 });
 

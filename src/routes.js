@@ -10,6 +10,7 @@ import Profile from './pages/profile/index';
 import Cart from './pages/cart/index';
 import logo from '../assets/logo.png';
 import styles from './styles';
+import global from './pages/global'
 
 
 
@@ -26,7 +27,7 @@ export default function Routes() {
       id='Header'
       style={styles.header}> 
          <Image source={logo} style={styles.logoHeader} />
-         <Text styl={styles.welcomeHeader}> Olá Fulano</Text>
+         <Text styl={styles.welcomeHeader}> Olá <Text style={global.span}>Igor</Text></Text>
          
       </View>
       <Tab.Navigator
