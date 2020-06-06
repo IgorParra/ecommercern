@@ -13,13 +13,6 @@ const styles = StyleSheet.create({
       flexDirection:'row',
       alignItems:'center',
       padding:20,
-      borderColor: '#ddd',
-      borderBottomWidth: 0,
-      shadowColor: '#000',
-      shadowOffset: { width: 10, height: 0 },
-      shadowOpacity: 0.22,
-      shadowRadius: 10,
-      elevation: 0.5,
     
       
       

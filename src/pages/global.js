@@ -26,7 +26,7 @@ const global = StyleSheet.create({
     fontSize:12,
     paddingLeft:30,
     color:'#02206C'
-  }  ,
+  } ,
 
 });
 
